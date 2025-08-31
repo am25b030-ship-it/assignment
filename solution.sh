@@ -20,7 +20,7 @@ grep -rl error /logs
 tail -n 10 app.log
 
 # 7. Change permissions of "script.sh" to make it executable for everyone
-chmod 111
+chmod a+x script.sh
 
 # 8. Use a command to search for the word "TODO" in every ".py" file in the current directory
 grep TODO *.py
